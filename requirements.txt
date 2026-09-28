@@ -1,0 +1,18 @@
+# --- LLM providers -----------------------------------------------------------
+# The two SDKs required by the challenge:
+openai          # official OpenAI SDK      (--provider openai)
+anthropic       # official Anthropic SDK   (--provider anthropic)
+google-genai    # additional provider      (--provider gemini) + RAG embeddings
+
+# --- RAG ---------------------------------------------------------------------
+supabase        # Supabase client (PostgreSQL + pgvector vector store)
+tiktoken        # token-accurate chunking
+pypdf           # PDF ingestion
+
+# --- Web tools (search_web / fetch_url_content) ------------------------------
+ddgs            # DuckDuckGo search (successor of duckduckgo_search)
+requests
+beautifulsoup4
+
+# --- Configuration -----------------------------------------------------------
+python-dotenv
